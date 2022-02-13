@@ -1,0 +1,12 @@
+
+.post {
+    width: 90%;
+}
+.item {
+    color: chartreuse;
+}
+.item  img {
+    width: 40px ;
+    height: 40px ;
+    border-radius: 20px;
+}

@@ -1,0 +1,29 @@
+
+.navbar {
+  grid-area: n;
+  background-color: rgb(105, 134, 61);
+  padding: 20px;
+}
+.item{
+  padding: 15px;
+}
+.item a  {
+  color: rgb(2, 11, 31);
+  text-decoration: none;
+  
+}
+.item a.active {
+  color: gold ; 
+}
+.boxFriends{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr
+}
+.point{
+  width: 40px;
+  height: 40px;
+  background-color: yellow; 
+  border-radius: 20px;
+  border: 1px solid black;
+  margin: 0 auto;
+}
